@@ -8,7 +8,7 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
-		<key>5BD03555-28A3-45C3-8437-A1CC692EEADC</key>
+		<key>042A991D-FE43-41F1-8108-4DB5F9B71034</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -17,6 +17,49 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>sourceoutputuid</key>
+				<string>362A24CC-5CE6-41D3-8092-7EBFD8C3BD85</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4F11C804-2957-46AF-870F-ABC8F871C85D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5E092C8C-C625-41F1-A521-3B02AA71074F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5BD03555-28A3-45C3-8437-A1CC692EEADC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>042A991D-FE43-41F1-8108-4DB5F9B71034</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5E092C8C-C625-41F1-A521-3B02AA71074F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0F0B4A96-8EB9-4CF6-9B12-82763DEBD6F8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>362A24CC-5CE6-41D3-8092-7EBFD8C3BD85</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -34,11 +77,39 @@
 				<false/>
 			</dict>
 		</array>
+		<key>7A3FF26D-DA6F-4D7D-AEF3-48301756D8B8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A51D971A-8F8D-494A-9C71-3621EF1A8B12</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>362A24CC-5CE6-41D3-8092-7EBFD8C3BD85</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>7DA35EE4-46CE-4B93-A831-52BA2981EFA9</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>6E6CB28A-B319-44F6-A002-7B24CB22481D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A7540419-294D-4A8D-87FB-537529A12862</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7A3FF26D-DA6F-4D7D-AEF3-48301756D8B8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -75,7 +146,109 @@
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>8C760C74-6A96-44B1-BD08-E1CEF4C09724</string>
+			<string>0F0B4A96-8EB9-4CF6-9B12-82763DEBD6F8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>prsearch</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>搜索中~~~</string>
+				<key>script</key>
+				<string>/opt/homebrew/bin/python3 ./main.py --search=$1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>搜索 pr (title)</string>
+				<key>type</key>
+				<integer>11</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>4F11C804-2957-46AF-870F-ABC8F871C85D</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>362A24CC-5CE6-41D3-8092-7EBFD8C3BD85</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string></string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>5E092C8C-C625-41F1-A521-3B02AA71074F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>A51D971A-8F8D-494A-9C71-3621EF1A8B12</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -95,7 +268,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>prs</string>
+				<string>propend</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -105,9 +278,9 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>loading...</string>
 				<key>script</key>
-				<string>/opt/homebrew/bin/python3 ./main.py</string>
+				<string>/opt/homebrew/bin/python3 ./main.py --state=opened</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -115,7 +288,88 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>查看待审核的 pr</string>
+				<string>查看现在 opend pr</string>
+				<key>type</key>
+				<integer>11</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>A7540419-294D-4A8D-87FB-537529A12862</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>362A24CC-5CE6-41D3-8092-7EBFD8C3BD85</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string></string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>7A3FF26D-DA6F-4D7D-AEF3-48301756D8B8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>prforme</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>loading...</string>
+				<key>script</key>
+				<string>/opt/homebrew/bin/python3 ./main.py --state=opened --aboutSelf</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>查看和我有关的待审核的 pr</string>
 				<key>type</key>
 				<integer>11</integer>
 				<key>withspace</key>
@@ -127,6 +381,59 @@
 			<string>5BD03555-28A3-45C3-8437-A1CC692EEADC</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>8C760C74-6A96-44B1-BD08-E1CEF4C09724</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>362A24CC-5CE6-41D3-8092-7EBFD8C3BD85</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string></string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>042A991D-FE43-41F1-8108-4DB5F9B71034</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -178,7 +485,7 @@
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>pr-clear-cache</string>
+				<string>prclear</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -198,40 +505,89 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>042A991D-FE43-41F1-8108-4DB5F9B71034</key>
+		<dict>
+			<key>xpos</key>
+			<real>435</real>
+			<key>ypos</key>
+			<real>350</real>
+		</dict>
+		<key>0F0B4A96-8EB9-4CF6-9B12-82763DEBD6F8</key>
+		<dict>
+			<key>xpos</key>
+			<real>575</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>4F11C804-2957-46AF-870F-ABC8F871C85D</key>
+		<dict>
+			<key>xpos</key>
+			<real>195</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
 		<key>5BD03555-28A3-45C3-8437-A1CC692EEADC</key>
 		<dict>
 			<key>xpos</key>
-			<real>200</real>
+			<real>195</real>
 			<key>ypos</key>
-			<real>160</real>
+			<real>320</real>
+		</dict>
+		<key>5E092C8C-C625-41F1-A521-3B02AA71074F</key>
+		<dict>
+			<key>xpos</key>
+			<real>435</real>
+			<key>ypos</key>
+			<real>45</real>
 		</dict>
 		<key>6E6CB28A-B319-44F6-A002-7B24CB22481D</key>
 		<dict>
 			<key>xpos</key>
-			<real>405</real>
+			<real>400</real>
 			<key>ypos</key>
-			<real>325</real>
+			<real>470</real>
+		</dict>
+		<key>7A3FF26D-DA6F-4D7D-AEF3-48301756D8B8</key>
+		<dict>
+			<key>xpos</key>
+			<real>435</real>
+			<key>ypos</key>
+			<real>195</real>
 		</dict>
 		<key>7DA35EE4-46CE-4B93-A831-52BA2981EFA9</key>
 		<dict>
 			<key>xpos</key>
-			<real>200</real>
+			<real>195</real>
 			<key>ypos</key>
-			<real>325</real>
+			<real>470</real>
 		</dict>
 		<key>8C760C74-6A96-44B1-BD08-E1CEF4C09724</key>
 		<dict>
 			<key>xpos</key>
-			<real>495</real>
+			<real>575</real>
 			<key>ypos</key>
-			<real>160</real>
+			<real>320</real>
+		</dict>
+		<key>A51D971A-8F8D-494A-9C71-3621EF1A8B12</key>
+		<dict>
+			<key>xpos</key>
+			<real>575</real>
+			<key>ypos</key>
+			<real>165</real>
+		</dict>
+		<key>A7540419-294D-4A8D-87FB-537529A12862</key>
+		<dict>
+			<key>xpos</key>
+			<real>195</real>
+			<key>ypos</key>
+			<real>165</real>
 		</dict>
 		<key>B420DD90-C56A-43B3-B90C-1968C3D9F65E</key>
 		<dict>
 			<key>xpos</key>
-			<real>610</real>
+			<real>605</real>
 			<key>ypos</key>
-			<real>325</real>
+			<real>470</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
